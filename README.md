@@ -31,38 +31,33 @@ The classic UCI Iris dataset — 150 samples, 4 numeric features, 3 balanced cla
 ### 1. Feature Pairplot
 Pairwise relationships between all four features, colored by species. Petal measurements separate the species far more cleanly than sepal measurements.
 
-![Pairplot](images/plot_01_pairplot.png)
+![Pairplot](plot_01_pairplot.png)
 
 ### 2. Feature Correlation Heatmap
 Petal length and petal width are extremely strongly correlated (0.96).
 
-![Correlation Heatmap](images/plot_02_correlation_heatmap.png)
+![Correlation Heatmap](plot_02_correlation_heatmap.png)
 
 ### 3. Feature Distributions by Species
 Boxplots confirming petal length/width show almost no overlap between setosa and the other two species.
 
-![Boxplots - Sepal Features](images/plot_03a_boxplots_sepal.png)
-![Boxplots - Petal Features](images/plot_03b_boxplots_petal.png)
+![Boxplots - Sepal Features](plot_03a_boxplots_sepal.png)
+![Boxplots - Petal Features](plot_03b_boxplots_petal.png)
 
 ### 4. PCA Projection
 Two principal components explain 95.81% of variance; setosa is fully isolated, versicolor/virginica overlap slightly.
 
-![PCA](images/plot_04_pca.png)
+![PCA](plot_04_pca.png)
 
 ### 5. Model Comparison
 5-fold cross-validation accuracy across five different classifiers.
 
-![Model Comparison](images/plot_05_model_comparison.png)
+![Model Comparison](plot_05_model_comparison.png)
 
 ### 6. Confusion Matrix
 Final tuned model on the held-out test set — 93.33% accuracy, errors isolated to the two overlapping species.
 
-![Confusion Matrix](images/plot_06_confusion_matrix.png)
-
-### 7. Decision Boundary
-Linear SVM decision boundary using petal length and petal width, the two strongest features.
-
-![Decision Boundary](images/plot_07_decision_boundary.png)
+![Confusion Matrix](plot_06_confusion_matrix.png)
 
 ## Tech Stack
 
