@@ -41,7 +41,8 @@ Petal length and petal width are extremely strongly correlated (0.96).
 ### 3. Feature Distributions by Species
 Boxplots confirming petal length/width show almost no overlap between setosa and the other two species.
 
-![Boxplots](images/plot_03_boxplots.png)
+![Boxplots - Sepal Features](images/plot_03a_boxplots_sepal.png)
+![Boxplots - Petal Features](images/plot_03b_boxplots_petal.png)
 
 ### 4. PCA Projection
 Two principal components explain 95.81% of variance; setosa is fully isolated, versicolor/virginica overlap slightly.
